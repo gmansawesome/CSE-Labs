@@ -1,0 +1,4 @@
+TPS 1
+1. Procedures: a type of subroutine that does not return a value. They are typically used to perform a specific action or sequence of actions, such as printing a message to the console or manipulating data.
+Functions: Functions are a type of subroutine that return a value. They are typically used to perform a calculation or data manipulation and return the result of that operation.
+Methods: Methods are similar to functions, but they are associated with an object or data type. They are typically used to manipulate data associated with an object or perform operations on that object.

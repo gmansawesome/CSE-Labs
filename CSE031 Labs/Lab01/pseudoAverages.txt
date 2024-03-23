@@ -1,0 +1,31 @@
+int main {
+    int evenSum = 0;
+    int oddSum = 0;
+
+    int currentVal = 1;
+    int count = 0;
+    while (currentVal != 0) {
+        count++;
+        printf("Enter the %d%s value: ", count, ordinal(count));
+        scanf("%d", currentVal);
+
+        if (digitSum(currentVal) % 2 == 0) {
+            evenSum += currentVal;
+        }
+        else {
+            oddSum += currentVal;
+        }
+    }
+
+    if (evenSum == 0 && oddSum == 0;) {
+        printf("There is no average to compute.");
+    }
+    else {
+        if (evenSum != 0) {
+            printf("Average of input values whose digits sum up to an even number: %d", evenSum);
+        }
+        if (oddSum != 0) {
+            printf("Average of input values whose digits sum up to an odd number: %d", oddSum);
+        }
+    }
+}

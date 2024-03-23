@@ -1,0 +1,21 @@
+Michael Wang
+
+TPS 1
+
+1. 
+heap: Dynamic memory managed by pointers
+
+stack: Local varibles managed by the cpu
+
+static: Global varibles managed by the complier
+
+2.
+        a. 3
+        b. 2 pointers, one is a pointer to an int the other is a pointer to an int ponter
+        c. the stack
+        d. the heap
+
+TPS 2
+    1. this program creates a node which contain and int a flouat and the pointer to the next node, the first node created contains the values 5 and 3.14
+
+    3. the pointer head is stored in the stack while the node itself is in the heap

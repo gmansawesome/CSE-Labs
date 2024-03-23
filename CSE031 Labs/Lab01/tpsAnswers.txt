@@ -1,0 +1,25 @@
+TPS 1
+
+1. Michael Wang
+2. https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+  	https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4
+  	https://www.debian.org/doc/manuals/debian-reference/ch01.en.html
+
+TPS 2
+1. I can open a terminal on windows by searching "command" or "terminal"
+    a. Yes, you can open more than 1 terminal
+    b. You may want to open multiple terminals simultaneously in order to run multiple processes
+2. ls
+3. cd Desktop
+4. mkdir CSE31
+
+TPS 3
+1. https://code.visualstudio.com/docs/cpp/config-mingw
+    https://cpp-lang.net/tools/standalone/compilers/setup-gcc-windows/
+3. gcc main.c -o main
+4. I know the program has compiled successfully if there are no errors and the executable appears in the directory
+5. the -c flag is used to compile without linking to an executable
+6. the -g flag is used to include debugging info
+7. mv main.c cselab1.c
+8. It compiled to an executable named a.out
+9. ./a.out

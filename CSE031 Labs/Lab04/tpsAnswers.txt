@@ -1,0 +1,35 @@
+Michael Wang, Blake Hoff
+
+TPS 1
+1. I'd expect it to print "0010" because of the use of %x, however it outputs "2"
+
+2. I'd expect it to output "2"  again because four_ints isn't modified.
+
+3. It outputs "44434241"
+
+4. It outputs "2" - we are lost by these results
+
+5.
+    a. one array was allocated
+    b. four_ints and four_c are pointing to the same location
+    c. they both point to 0x7fff9f5145e0
+
+6. The difference in addresses between two consecutive elements is 4, which is the size of an int.
+
+7. See question_7.png
+
+8. The difference in addresses between two consecutive elements is 1, which is the size of an char.
+
+9. See question_9.png
+
+10. C accesses memory of a sequential array through the size of the type of the array.
+
+
+TPS 2
+1. Line 8 initializes int** arr as an array consisting of n int* elements.
+
+2. *(arr+i)
+
+3. *((*arr+i)+j)
+
+4. We need to pass the size as an argument because otherwise the function would keep accessing memory causing a seg fault.

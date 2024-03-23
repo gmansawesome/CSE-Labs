@@ -1,0 +1,14 @@
+TPS 2
+1. gcc -g punishment.c -o punishment
+2. gdb punishment
+3. r/run
+4. Breakpoints are a point at which the program stops, set using b/break.
+5. s/set
+7. c/continue
+8. q/quit
+
+TPS 3
+1. 4 variables were declared in the first line of main(), 2 of which (px and py) are pointers.
+2. Because the variables and array aren't initialized, we are dealing with undefined behavior so the values can be anything.
+3. You can prevent undefined behavior by initializing the variables.
+8. The result makes sense because the address of arr consists of the entire array, which starts at the first value.

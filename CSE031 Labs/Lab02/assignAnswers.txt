@@ -1,0 +1,10 @@
+Assignment 1
+1. Line 25
+2. turn input -> &input
+3. Sum value is dying locally in read_values instead of returning to main.
+4. You fix it by passing sum by reference into read_values
+
+Assignment 2
+1.No, there is an addition "llo!" at the end
+2.No, it has a hellhi! at the end.
+3.No, the space allocated is static.

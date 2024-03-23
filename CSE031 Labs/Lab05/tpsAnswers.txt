@@ -1,0 +1,29 @@
+Michael Wang, Blake Hoff
+
+TPS 1
+1. MARS stands for 'MIPS Assembler and Runtime Simulator'
+
+5.
+    a. navigate to the file menubar and selecting the "open file" button
+    b. select the wrench and screwdriver "assemble" button
+    c. select the green arrow "run" button
+    d. no
+    e. select the double green arrow "single-step" run button
+    f. select the backwards double green arrow "reset" button, then run again
+
+TPS 2
+1. .data defines the static data segment, .word declares a 4-byte word variable, and .text defines the program instructions
+
+2. line 10 ends the fib loop if $t3 is equal to zero
+
+3. line 15 continues the fib loop by calling fib
+
+4. You set a breakpoint by marking the checkbox of the corresponding line after assembling
+
+5. You can continue from a breakpoint by selecting the "run" or "single step" buttons
+
+6. You can see the content of a register by observing the right-side box, and modify it by double-clicking
+
+7. N is stored at address 4194312, 144
+
+8. it opens up a syscall then ends it with the same call, with everything in between being ouptut to the terminal.
